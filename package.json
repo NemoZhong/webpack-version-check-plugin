@@ -1,0 +1,24 @@
+{
+  "name": "@wyny/set-version-plugin",
+  "version": "1.0.4",
+  "description": "webpack plugin to check whether the version is changed",
+  "main": "plugins/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode development"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "clean-webpack-plugin": "^4.0.0",
+    "webpack": "^5.67.0",
+    "webpack-cli": "^4.9.2"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.17.3",
+    "@babel/core": "^7.17.4",
+    "@babel/polyfill": "^7.12.1",
+    "@babel/preset-env": "^7.16.11"
+  }
+}
